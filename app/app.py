@@ -4,7 +4,8 @@ from flask import Flask, redirect, render_template, request
 from markupsafe import Markup
 import numpy as np
 import pandas as pd
-from utils.disease import disease_dic
+from app.utils.disease import disease_dic
+
 from utils.fertilizer import fertilizer_dic
 import requests
 import config
